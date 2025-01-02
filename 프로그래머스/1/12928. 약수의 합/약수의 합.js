@@ -7,7 +7,7 @@ function solution(n) {
         }
     }
     
-    var answer = divisors.reduce((a,b) => (a+b),0)
-    return answer;
+    var a = divisors.reduce((a,b) => (a+b),0)
+    return a;
 }
 
